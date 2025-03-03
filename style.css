@@ -1,0 +1,228 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .content img {
+        width: 100%;
+    }
+    .conteudo img {
+        width: 100%;
+    }
+    .ganhador img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .content img {
+        width: 100%;
+    }
+    .conteudo img {
+        width: 100%;
+    }
+    .ganhador img {
+        width: 100%;
+    }
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.kart {
+    display: flex;
+}
+
+.kart .logo {
+    flex-direction: column;
+}
+
+.kart .perfil {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.kart .logo img {
+    border-radius: 30px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.kart .perfil .self img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+nav ul {
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a19f9f;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 5px; 
+}
+
+nav ul li:hover {
+    background-color: #404140; 
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.paragrafo {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.final {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container .numero {
+    border-radius: 30%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px
+} 
+
+.content .img1 {
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.content .img2 {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .img3 {
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteudo img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px
+} 
+
+.conteudo .img4 {
+    flex-direction: column;
+}
+
+.conteudo .img5 {
+    flex-direction: column;
+}
+
+.ganhador {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ganhador img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px
+} 
+
+.ganhador .winner img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.footer-icons a.whatsapp {
+    color: #1db954; 
+}
+.footer-icons a.instagram {
+    color: #E4405F; 
+}
+.footer-icons .youtube {
+    color: red;
+}
+.footer-icons .twitch {
+    color: rgb(120, 105, 202);
+}
+
+button {
+    float: right;
+}

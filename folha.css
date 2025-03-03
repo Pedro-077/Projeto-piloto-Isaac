@@ -1,0 +1,252 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container img {
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .conteudo1, .container .conteudo2 {
+        width: 100%;  
+        margin: 0;  
+    }
+
+    .container .conteudo2 {
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: center; 
+        margin-top: 10px;
+    }
+
+    .container .conteudo3 {
+        text-align: center;  
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .conteudo1, .container .conteudo2 {
+        width: 100%;  
+        margin: 0;  
+    }
+
+    .container .conteudo2 {
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: center; 
+        margin-top: 10px;
+    }
+
+    .container .conteudo3 {
+        text-align: center;  
+        margin-top: 10px;
+    }
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    width: 200px; 
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px; 
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a19f9f; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 5px; 
+}
+
+nav ul li:hover {
+    background-color: #404140;
+}
+
+
+h2 {
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+} 
+
+.eu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #535252;
+}
+td {
+    background-color: #666666;
+}
+
+.separador {
+    border-left: 2px solid #000000;
+}
+
+.titulo {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.paragrfo .texto-reduzido {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragrafo .texto-completo {
+    display: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mostrar {
+    color: blue;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.container .conteudo1, .container .conteudo2, .container .conteudo3 {
+    display: flex;
+    flex-direction: column;  
+}
+
+.container .conteudo1 {
+    margin-right: 10px;
+    align-items: center;  
+    margin-left: auto;
+}
+
+.container .conteudo2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: flex-start;  
+}
+
+.container .conteudo3 {
+    font-size: larger;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.footer-icons a.whatsapp {
+    color: #1db954; 
+}
+.footer-icons a.instagram {
+    color: #E4405F; 
+}
+.footer-icons .youtube {
+    color: red;
+}
+.footer-icons .twitch {
+    color: rgb(120, 105, 202);
+}
+
+button {
+    float: right;
+}
