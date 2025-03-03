@@ -189,9 +189,8 @@ nav ul li:hover {
     border-radius: 10px
 } 
 
-.ganhador .winner img {
-    margin-left: auto;
-    margin-right: auto;
+.ganhador .winner {
+    text-aling: center;
 }
 
 footer {
