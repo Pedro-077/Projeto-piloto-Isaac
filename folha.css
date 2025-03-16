@@ -217,6 +217,28 @@ td {
     margin-left: 15px;
 }
 
+.div-final {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+} 
+
+.div-final .final {
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.div-final .posicao-campeonato {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.div-final .sexto {
+    flex-direction: column;
+    margin-right: auto;
+}
 
 footer {
     background-color: #333;
