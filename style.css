@@ -193,6 +193,14 @@ nav ul li:hover {
     text-align: center;
 }
 
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 footer {
     background-color: #333;
     color: white;
