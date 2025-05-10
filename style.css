@@ -177,6 +177,10 @@ nav ul li:hover {
     flex-direction: column;
 }
 
+.conteudo .img6 {
+    flex-direction: column;
+}
+
 .ganhador {
     flex-wrap: wrap;
     justify-content: center;
