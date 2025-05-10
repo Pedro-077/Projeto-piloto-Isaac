@@ -25,6 +25,19 @@
         text-align: center;  
         margin-top: 10px;
     }
+
+    .ultima-corrida {
+        flex-direction: column;
+    }
+
+    .ultima-corrida .pose img, .ultima-corrida .colocaçao img {
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        align-items: center; 
+        margin-top: 10px;
+        
+    }
 }
 
 @media (max-width: 480px) {
@@ -51,6 +64,14 @@
     .container .conteudo3 {
         text-align: center;  
         margin-top: 10px;
+    }
+
+    .ultima-corrida {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
 
@@ -217,28 +238,25 @@ td {
     margin-left: 15px;
 }
 
-.div-final {
+.ultima-corrida {
     display: flex;
-    margin: 20px;
+    justify-content: center;
+    gap: 60px;
     flex-wrap: wrap;
-} 
+    align-items: center;
+  }
+  
+  .ultima-corrida img {
+    width: 100%;
+    max-width: 400px;
+    right: auto;
+    object-fit: cover;
+  }
 
-.div-final .final {
-    flex-direction: column;
-    margin-left: auto;
+.posicao-campeonato {
+    text-align: center;
 }
 
-.div-final .posicao-campeonato {
-    flex-direction: column;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
-}
-
-.div-final .sexto {
-    flex-direction: column;
-    margin-right: auto;
-}
 
 footer {
     background-color: #333;
