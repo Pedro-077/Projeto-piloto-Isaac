@@ -107,3 +107,36 @@ hr {
         font-size: 14px;
     }
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.footer-icons a.whatsapp {
+    color: #1db954; 
+}
+.footer-icons a.instagram {
+    color: #E4405F; 
+}
+.footer-icons .youtube {
+    color: red;
+}
+.footer-icons .twitch {
+    color: rgb(120, 105, 202);
+}
+
+button {
+    float: right;
+}
