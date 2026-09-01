@@ -1,0 +1,1 @@
+Projeto desenvolvido para um piloto de kart durante meu período de aprendizado em desenvolvimento web. O objetivo era criar uma página para apresentar sua trajetória no automobilismo, divulgar suas atividades e facilitar o contato com possíveis patrocinadores.
